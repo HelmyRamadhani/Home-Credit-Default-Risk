@@ -1,4 +1,4 @@
-﻿
+
 # 💳Home Credit Default Risk💳
 
 ## 📂  **Stage 0 : Problem Statement**
@@ -13,3 +13,7 @@ Untuk mencapai hal tersebut, Home credit ingin dapat memastikan calon nasabah ya
 
 [![img1](https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/raw/main/Picture/Persentase%20pengajuan%20pinjaman%20diterima%20dan%20ditolak.png)](https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/main/Picture/Persentase%20pengajuan%20pinjaman%20diterima%20dan%20ditolak.png)
 
+
+## 📂  **Stage 1 : Exploratory Data Analysis**
+
+![img2](https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/7b77b65767f23e7920b8b68283adefc77a5aee76/Picture/dataset.JPG)
