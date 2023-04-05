@@ -13,4 +13,3 @@ Untuk mencapai hal tersebut, Home credit ingin dapat memastikan calon nasabah ya
 
 [![img1](https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/raw/main/Picture/Persentase%20pengajuan%20pinjaman%20diterima%20dan%20ditolak.png)](https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/main/Picture/Persentase%20pengajuan%20pinjaman%20diterima%20dan%20ditolak.png)
 
-<center> `Gambar.1 Persentase pengajuan pinjaman diterima dan ditolak` <center> 
