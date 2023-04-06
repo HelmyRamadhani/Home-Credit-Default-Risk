@@ -1,4 +1,4 @@
-
+<body>
 # 💳Home Credit Default Risk💳
 
 ## 📂  **Stage 0 : Problem Statement**
@@ -44,13 +44,14 @@ Features "TARGET"
 
 ![img3](https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/4a678ab108daa3f4a18c1154c7ca3220c220f49b/Picture/Distribusi%20Variabel%20Target%20(Dataset%20Pelatihan).JPG "San Juan Mountains")
 
+<center>sad</center>
 
 ### **Insight**
 
 **Kegagalan Membayar berdasarkan Rentang Usia Klien**
 
 ![img4](https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/4a678ab108daa3f4a18c1154c7ca3220c220f49b/Picture/Kegagalan%20Membayar%20berdasarkan%20Rentang%20Usia%20Klien.JPG)
-
+</body>
 
 
 
