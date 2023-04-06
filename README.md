@@ -20,6 +20,24 @@ Untuk mencapai hal tersebut, Home credit ingin dapat memastikan calon nasabah ya
 </p>
 <!-- Code gambar 1 -->
 
+Pada data set, pengajuan pinjaman terdapat 307511 nasabah yang
+terdiri dari 91,93% berindikasi pengajuan pijaman diterima (akan membayar pinjaman
+tepat waktu) dan 8,07% mengalami pengajuan pijaman ditolak (kesulitan dalam
+membayar kembali pinjaman)
+
+### Objective
+- Mendapatkan insight mengenai profile naasabah yaang mengajukan pinjaman.
+- Memprediksi nasabah yang akan membayar pinjaman tepat waktu atau kesulitan dalam
+membayar kembali pinjaman
+- Memberikan bisnis rekomendasi yang tepat untuk meningkatkan penerimaan pengajuan pinjaman
+
+### Goals
+
+
+
+
+
+
 
 ## 📂  **Stage 1 : Exploratory Data Analysis**
 
@@ -57,7 +75,7 @@ Features "TARGET"
 <p align="center">
 <img src="https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/main/Picture/Distribusi%20Variabel%20Target%20(Dataset%20Pelatihan).JPG" width="500" height="400" />
 <p align="center">
-<em> Gamarb.2 Distribusi Variabel Target (Dataset Pelatihan) </em>
+<em> Gambar.2 Distribusi Variabel Target (Dataset Pelatihan) </em>
 </p>
 </p>
 <!-- Code gambar 2 -->
@@ -70,14 +88,27 @@ Features "TARGET"
 <p align="center">
 <img src="https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/main/Picture/Kegagalan%20Membayar%20berdasarkan%20Rentang%20Usia%20Klien.JPG" width="600" height="500" />
 <p align="center">
-<em> Gamarb.3 Distribusi Kegagalan Membayar berdasarkan Rentang Usia Klien) </em>
+<em> Gambar.3 Distribusi Kegagalan Membayar berdasarkan Rentang Usia Klien) </em>
 </p>
 </p>
 <!-- Code gambar 3 -->
 
+- seiring bertambahnya usia klien, tingkat nasabah yang mengalami kesulitan
+membayar pinjaman yang terus menurun
+
+
+
+
 **Kegagalan Membayar berdasarkan Rentang Usia Klien**
 
-
+<!-- Code gambar 3 -->
+<p align="center">
+<img src="https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/main/Picture/Kegagalan%20Membayar%20berdasarkan%20Rentang%20Usia%20Klien.JPG" width="600" height="500" />
+<p align="center">
+<em> Gambar.3 Distribusi Kegagalan Membayar berdasarkan Rentang Usia Klien) </em>
+</p>
+</p>
+<!-- Code gambar 3 -->
 
 
 
