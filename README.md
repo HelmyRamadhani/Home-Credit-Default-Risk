@@ -12,7 +12,7 @@ Home Credit merupakan perusahaan penyedia credit ingin memperluas inklusi keuang
 Untuk mencapai hal tersebut, Home credit ingin dapat memastikan calon nasabah yang mampu melakukan pelunasan tidak ditolak ketika melakukan pengajuan pinjaman, dan pinjaman dapat diberikan dengan principal, maturity, dan repayment calendar yang akan memotivasi pelanggan dengan menggunakan berbagai data alternatif, seperti telekomunikasi dan informasi transaksional untuk memprediksi kemampuan pembayaran klien mereka.
 
 [![img1](https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/raw/main/Picture/Persentase%20pengajuan%20pinjaman%20diterima%20dan%20ditolak.png)](https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/main/Picture/Persentase%20pengajuan%20pinjaman%20diterima%20dan%20ditolak.png)
-
+*Gambar.1 Persentase pengajuan pinjaman diterima dan ditolak*
 
 ## 📂  **Stage 1 : Exploratory Data Analysis**
 
