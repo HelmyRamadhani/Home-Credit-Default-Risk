@@ -17,3 +17,4 @@ Untuk mencapai hal tersebut, Home credit ingin dapat memastikan calon nasabah ya
 ## 📂  **Stage 1 : Exploratory Data Analysis**
 
 ![img2](https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/7b77b65767f23e7920b8b68283adefc77a5aee76/Picture/dataset.JPG)
+*Gambar.2 Ringkasan Data Set*
