@@ -124,6 +124,29 @@ membayar kembali pinjaman terus menurun.
 - Rasio pinjaman tidak dilunasi (Target =1) untuk pinjaman Tunai(cash Loans) adalah 8,35%, sedangkan rasio untuk pinjaman Revoling(Revoling Loans) adalah 5,48%.
 
 
+**Distribusi Days_Employed berdasarkan Nilai Target**
+
+<!-- Code gambar 6 -->
+<p align="center">
+<img src="https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/a20c658639d41dcec2f962b2a966984abc91477e/Picture/Distribution%20DAYS_EMPLOYED%20Berdasarkan%20Nilai%20Target.JPG" width="650" height="350" />
+<p align="center">
+<em> Gambar.6 Distribusi Days_Employed berdasarkan Nilai Target </em>
+</p>
+</p>
+<!-- Code gambar 6 -->
+
+- Distibusi pinjaman mengalami kesulitan membayar memuncak pada
+DAYS_EMPLOYED sekitar nol. Nilai yang sama dengan dan di bawah nol cenderung
+mengindikasikan bahwa nasabah tersebut menganggur. Sehingga kemampuan
+seseorang untuk memperbaiki pinjaman mereka tampaknya berkorelasi positif
+dengan masa kerja di pekerjaan mereka saat ini
+
+
+<br>
+
+## 📂  **Stage 2 : Data Pre-processing**
+
+### **Workflow Data Pre-processing**
 
 
 
