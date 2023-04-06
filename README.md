@@ -20,7 +20,7 @@ Untuk mencapai hal tersebut, Home credit ingin dapat memastikan calon nasabah ya
 </p>
 <!-- Code gambar 1 -->
 
-Pada data set, pengajuan pinjaman terdapat 307511 nasabah yang
+Pada data set test, pengajuan pinjaman terdapat 307511 nasabah yang
 terdiri dari 91,93% berindikasi pengajuan pijaman diterima (akan membayar pinjaman
 tepat waktu) dan 8,07% mengalami pengajuan pijaman ditolak (kesulitan dalam
 membayar kembali pinjaman)
@@ -32,12 +32,13 @@ membayar kembali pinjaman
 - Memberikan bisnis rekomendasi yang tepat untuk meningkatkan penerimaan pengajuan pinjaman
 
 ### Goals
+- Membuat model machine learning yang dapat memprediksi nasabah yang berpeluang membayar pinjaman tepat waktu.
+- Diharapkan model dapat menigkatkan Take Up Rate diatas 1%
 
+### Business Matrics
+Take Up Rate
 
-
-
-
-
+<br>
 
 ## 📂  **Stage 1 : Exploratory Data Analysis**
 
@@ -61,7 +62,7 @@ tetapi dikurangi variabel 'TARGET')
 - Dari 121 Features di Dataset latih, 40,99% fitur
 memiliki lebih dari 50% nilai yang hilang
 
-- ·Dari 121 Features terdapat 16 Features bertipe
+- Dari 121 Features terdapat 16 Features bertipe
 Categorical
 
 - Pada Dataset terdapat data yang menampilkan 20 variabel yang
@@ -82,28 +83,25 @@ Features "TARGET"
 
 ### **Insight**
 
-**Kegagalan Membayar berdasarkan Rentang Usia Klien**
+**Distribusi usia nasabah dalam tahun**
 
 <!-- Code gambar 3 -->
 <p align="center">
-<img src="https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/main/Picture/Kegagalan%20Membayar%20berdasarkan%20Rentang%20Usia%20Klien.JPG" width="600" height="500" />
+<img src="https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/9092f2cf7b4a036c89b0e6f9a1fcc4a75bebafd9/Picture/Distribusi%20usia%20klien%20(dalam%20tahun).JPG" width="600" height="400" />
 <p align="center">
 <em> Gambar.3 Distribusi Kegagalan Membayar berdasarkan Rentang Usia Klien) </em>
 </p>
 </p>
 <!-- Code gambar 3 -->
 
-- seiring bertambahnya usia klien, tingkat nasabah yang mengalami kesulitan
-membayar pinjaman yang terus menurun
+- Plot diatas dengan jelas menunjukkan bahwa seiring bertambahnya usia nasabah, tingkat nasabah yang kesulitan dalam
+membayar kembali pinjaman terus menurun. 
 
-
-
-
-**Kegagalan Membayar berdasarkan Rentang Usia Klien**
+**Jenis Kontrak Berdasarkan Nilai Target**
 
 <!-- Code gambar 3 -->
 <p align="center">
-<img src="https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/main/Picture/Kegagalan%20Membayar%20berdasarkan%20Rentang%20Usia%20Klien.JPG" width="600" height="500" />
+<img src="https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/9092f2cf7b4a036c89b0e6f9a1fcc4a75bebafd9/Picture/Jenis%20Kontrak%20berdasarkan%20Nilai%20Target.JPG" width="600" height="500" />
 <p align="center">
 <em> Gambar.3 Distribusi Kegagalan Membayar berdasarkan Rentang Usia Klien) </em>
 </p>
