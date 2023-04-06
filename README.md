@@ -89,7 +89,7 @@ Features "TARGET"
 <p align="center">
 <img src="https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/9092f2cf7b4a036c89b0e6f9a1fcc4a75bebafd9/Picture/Distribusi%20usia%20klien%20(dalam%20tahun).JPG" width="600" height="400" />
 <p align="center">
-<em> Gambar.3 Distribusi Kegagalan Membayar berdasarkan Rentang Usia Klien) </em>
+<em> Gambar.3 Distribusi usia nasabah dalam tahun </em>
 </p>
 </p>
 <!-- Code gambar 3 -->
@@ -99,14 +99,29 @@ membayar kembali pinjaman terus menurun.
 
 **Jenis Kontrak Berdasarkan Nilai Target**
 
-<!-- Code gambar 3 -->
+<!-- Code gambar 4 -->
 <p align="center">
-<img src="https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/9092f2cf7b4a036c89b0e6f9a1fcc4a75bebafd9/Picture/Jenis%20Kontrak%20berdasarkan%20Nilai%20Target.JPG" width="600" height="500" />
+<img src="https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/9092f2cf7b4a036c89b0e6f9a1fcc4a75bebafd9/Picture/Jenis%20Kontrak%20berdasarkan%20Nilai%20Target.JPG" width="600" height="400" />
 <p align="center">
-<em> Gambar.3 Distribusi Kegagalan Membayar berdasarkan Rentang Usia Klien) </em>
+<em> Gambar.4 Jenis Kontrak Berdasarkan Nilai Target </em>
 </p>
 </p>
-<!-- Code gambar 3 -->
+<!-- Code gambar 4 -->
+
+- Rasio pinjaman tidak dilunasi (Target =1) untuk pinjaman Tunai(cash Loans) adalah 8,35%, sedangkan rasio untuk pinjaman Revoling(Revoling Loans) adalah 5,48%.
+
+**Distribusi Jumlah Kredit Berdasarkan Nilai Target**
+
+<!-- Code gambar 5 -->
+<p align="center">
+<img src="https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/ce1121495c524e469c5e95bbae6e084fa7448962/Picture/Distibusi%20Jumlah%20Kredit%20Berdasarkan%20Nilai%20Target.JPG" width="700" height="350" />
+<p align="center">
+<em> Gambar.5 Distribusi Jumlah Kredit Berdasarkan Nilai Targe </em>
+</p>
+</p>
+<!-- Code gambar 5 -->
+
+- Rasio pinjaman tidak dilunasi (Target =1) untuk pinjaman Tunai(cash Loans) adalah 8,35%, sedangkan rasio untuk pinjaman Revoling(Revoling Loans) adalah 5,48%.
 
 
 
