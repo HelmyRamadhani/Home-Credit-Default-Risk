@@ -16,5 +16,71 @@ Untuk mencapai hal tersebut, Home credit ingin dapat memastikan calon nasabah ya
 
 ## 📂  **Stage 1 : Exploratory Data Analysis**
 
+### **Dataset**
+
+*Tabel.1 Ringkasan Data Set*
 ![img2](https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/7b77b65767f23e7920b8b68283adefc77a5aee76/Picture/dataset.JPG)
-*Gambar.2 Ringkasan Data Set*
+
+- Dataset pelatihan terdiri dari 307.511 baris
+dengan 122 Features. Dataset pengujian terdiri
+dari 48.744 baris dengan 121 Features (memiliki
+Features yang sama seperti Dataset pelatihan
+tetapi dikurangi variabel 'TARGET')
+
+- Dari 121 Features di Dataset latih, 40,99% fitur
+memiliki lebih dari 50% nilai yang hilang
+
+- ·Dari 121 Features terdapat 16 Features bertipe
+Categorical
+
+- Pada Dataset terdapat data yang menampilkan 20 variabel yang
+terkait dengan apakah klien telah menyediakan
+formulir tertentu ('FLAG_DOCUMENT')
+
+- Terdapat masalah kelas yang tidak seimbang pada
+Features "TARGET"
+
+*Tabel.2 Distribusi Variabel Target (Dataset Pelatihan)*
+
+![img3](https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/4a678ab108daa3f4a18c1154c7ca3220c220f49b/Picture/Distribusi%20Variabel%20Target%20(Dataset%20Pelatihan).JPG "San Juan Mountains")
+
+
+### **Insight**
+
+**Kegagalan Membayar berdasarkan Rentang Usia Klien**
+
+![img4](https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/4a678ab108daa3f4a18c1154c7ca3220c220f49b/Picture/Kegagalan%20Membayar%20berdasarkan%20Rentang%20Usia%20Klien.JPG)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
