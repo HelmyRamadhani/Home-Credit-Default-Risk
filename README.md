@@ -121,7 +121,7 @@ membayar kembali pinjaman terus menurun.
 </p>
 <!-- Code gambar 5 -->
 
-- Rasio pinjaman tidak dilunasi (Target =1) untuk pinjaman Tunai(cash Loans) adalah 8,35%, sedangkan rasio untuk pinjaman Revoling(Revoling Loans) adalah 5,48%.
+- Distribusi jumlah kredit yang dibayar tepat waktu dan mengalami kesulitan membayar adalah serupa. Tetapi terdapat anomali pada jumlah kredit kisaran antara 400.000 hingga 600.000 memiliki rasio pinjaman yang tidak dilunasi lebih tinggi.
 
 
 **Distribusi Days_Employed berdasarkan Nilai Target**
@@ -148,6 +148,53 @@ dengan masa kerja di pekerjaan mereka saat ini
 
 ### **Workflow Data Pre-processing**
 
+
+<!-- Code gambar 7 -->
+<p align="center">
+<img src="https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/1f8f39e00be7349680901d547300fe00b2a9b1e9/Picture/Workflow%20Data%20Pre-processing.JPG" width="650" height="300" />
+<p align="center">
+<em> Gambar.7 Workflow Data Pre-processing </em>
+</p>
+</p>
+<!-- Code gambar 7 -->
+
+
+**1. Handling Missing Value**
+- Menghapus kolom yang memiliki jumlah data null lebih dari 60% jumlah baris dataset "train"
+- Memisahkan kolom yang bertipe kategorical dan numerik
+- Pada kolom numerik yang memiliki jumlah data null kurang dari 60%. Akan di isi dengan median dari masih masih kolomnya.
+- Pada kolom kategorical yang memiliki jumlah data null kurang dari 60%. Akan di isi dengan mode dari masih masih kolomnya.
+- Hal ini juga dilakuakn pada dataset "test"
+
+**2. Handling Outlier**
+- Handling Outlier hanya dilakukan pada seluruh kolom numerik kecuali target
+- Handling Outlier dilakukan dengan cara mengganti nilai outlier. Pada nilai-nilai yang upper outlier akan diganti dengan nilai '9999999' dan pada nilai-nilai yang lower outlier akan diganti dengan nilai '1111111'
+
+**3. Label Encoder**
+- Label Encoder hanya dilakukan pada kolom ketegorical
+- Karena pada kolom "ORGANIZATION_TYPE" memiliki terlalu banyak nilai maka, kolom ini dihapus
+
+**4. Splitting Data Train dan Test**
+- Splitting dataset train dan test dilakukan dengan proporsi 70 : 30
+- Data set "test" menjadi data validasi
+
+**5. Feature Transformation**
+- Feature Transformation yang dipilih yaitu Normalization karena tidak merubah bentuk sebaran dat dan merubah range dari nilai fitur dengan batas range
+yang pasti/rigid
+- Normalization dilakukan hanya pada dataset train
+
+**6. Handling Class Imbalance**
+- Dikarenakan jumlah kelas antar fitur target cukup besar maka Handling Class Imbalance dilakukan pada data train dengan menggunakan metode Oversampling.
+
+
+## 📂  **Stage 3 : Modeling and Evaluation**
+
+Algoritma yang digunakan yaitu Logistic Regression, dan Light GBM. Salain itu juga, dilakukan tuning pada setiap algortima yang digunakan
+
+
+
+
+Berdasarkan beberapa algoritma yang telah diterapkan untuk uji coba performa model, algoritma Random Forest yang telah dilakukan Hyperparameter Tuning dipilih untuk diterapkan.
 
 
 
