@@ -198,12 +198,14 @@ yang pasti/rigid
 <p align="center">
 <img src="https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/fe349bfc1285e401180686a76ecd5d5d6875b73a/Picture/Hasil%20Cross-Validation%20Score%20%20dari%20Masing%20Masing%20Algoritma.jpg" width="600" height="300" />
 <p align="center">
-<em> Gambar.7 Workflow Data Pre-processing </em>
+<em> Gambar.8 Hasil Cross-Validation Score dari Masing-Masing Algoritma </em>
 </p>
 </p>
 <!-- Code gambar 8-->
 
 Berdasarkan beberapa algoritma yang telah diterapkan untuk uji coba performa model, algoritma Light GBM yang telah dilakukan Hyperparameter Tuning dipilih untuk diterapkan karena miliki ross-Validation Score tertinggi dibandingkan dengana algoritma lainnya yaitu 0,742355.
+
+**Feature Importances**
 
 
 
