@@ -207,6 +207,15 @@ Berdasarkan beberapa algoritma yang telah diterapkan untuk uji coba performa mod
 
 **Feature Importances**
 
+<!-- Code gambar 9 -->
+<p align="center">
+<img src="https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/94504d4fb40560d148cf8a88a63478f5133310f7/Picture/Grafik%20Summaryplot%20Beeswarm%20SHAP%20Value.JPG" width="300" height="400" />
+<p align="center">
+<em> Gambar.8 Hasil Cross-Validation Score dari Masing-Masing Algoritma </em>
+</p>
+</p>
+<!-- Code gambar 8-->
+
 
 
 
