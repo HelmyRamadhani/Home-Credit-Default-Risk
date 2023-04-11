@@ -207,14 +207,20 @@ Berdasarkan beberapa algoritma yang telah diterapkan untuk uji coba performa mod
 
 **Feature Importances**
 
+Selanjutnya, untuk mengetahui seberapa fitur-fitur berpengaruh terhadap model prediksi, dilakukan analisis menggunakan SHAP Value. Berikut ini hasil dari urutan fitur-fitur (feature importance) yang memiliki pengaruh paling tinggi hingga yang paling rendah pengaruhnya terhadap model prediksi.
+
 <!-- Code gambar 9 -->
 <p align="center">
 <img src="https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/94504d4fb40560d148cf8a88a63478f5133310f7/Picture/Grafik%20Summaryplot%20Beeswarm%20SHAP%20Value.JPG" width="300" height="400" />
 <p align="center">
-<em> Gambar.8 Hasil Cross-Validation Score dari Masing-Masing Algoritma </em>
+<em> Gambar.9 Grafik SHAP Value </em>
 </p>
 </p>
-<!-- Code gambar 8-->
+<!-- Code gambar 9-->
+
+- EXT_SOURCE 3, EXT_SOURCE 2 dan AMT_GOODS_PRICE yang memiliki nilai lebih tinggi maka akan berdampak negatif pada prediksi (berkorelasi negatif terhadap target).
+- Sedangkan untuk AMT_CREDIT dan CODE_GENDER apabila memiliki nilai lebih tinggi akan memiliki dampak positif terhadap prediksi (berkorelasi positif terhadap target).
+
 
 
 
