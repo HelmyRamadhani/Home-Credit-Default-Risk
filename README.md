@@ -221,7 +221,9 @@ Selanjutnya, untuk mengetahui seberapa fitur-fitur berpengaruh terhadap model pr
 - EXT_SOURCE 3, EXT_SOURCE 2 dan AMT_GOODS_PRICE yang memiliki nilai lebih tinggi maka akan berdampak negatif pada prediksi (berkorelasi negatif terhadap target).
 - Sedangkan untuk AMT_CREDIT dan CODE_GENDER apabila memiliki nilai lebih tinggi akan memiliki dampak positif terhadap prediksi (berkorelasi positif terhadap target).
 
+## 📂  **Stage 5 : Business Insight and Recomendation**
 
+**Business Insight - PageValues**
 
 
 
