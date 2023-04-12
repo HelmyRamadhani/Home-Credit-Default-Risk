@@ -94,8 +94,10 @@ Features "TARGET"
 </p>
 <!-- Code gambar 3 -->
 
-- Plot diatas dengan jelas menunjukkan bahwa seiring bertambahnya usia nasabah, tingkat nasabah yang kesulitan dalam
+-Distribusi umur nasabah menunjukkan bahwa seiring bertambahnya usia nasabah, tingkat nasabah yang kesulitan dalam
 membayar kembali pinjaman terus menurun. 
+
+
 
 **Jenis Kontrak Berdasarkan Nilai Target**
 
@@ -211,7 +213,7 @@ Selanjutnya, untuk mengetahui seberapa fitur-fitur berpengaruh terhadap model pr
 
 <!-- Code gambar 9 -->
 <p align="center">
-<img src="https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/94504d4fb40560d148cf8a88a63478f5133310f7/Picture/Grafik%20Summaryplot%20Beeswarm%20SHAP%20Value.JPG" width="300" height="400" />
+<img src="https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/94504d4fb40560d148cf8a88a63478f5133310f7/Picture/Grafik%20Summaryplot%20Beeswarm%20SHAP%20Value.JPG" width="500" height="600" />
 <p align="center">
 <em> Gambar.9 Grafik SHAP Value </em>
 </p>
@@ -272,6 +274,15 @@ Selanjutnya, untuk mengetahui seberapa fitur-fitur berpengaruh terhadap model pr
 
 - Nasabah Pinjaman Tidak Dilunasi memiliki kecenderungan dengan Jumlah kredit yang kecil dan kencenderungan tersebut terus menurun pada nilai Jumlah kredit yang tinggi
 
+### **Business Recomendation**
+
+#### **Rekomendasi Bisnis Berdasarkan Mechine Learning**
+
+- Menggunakan data alternatif yang terkait dengan Feature EXT_SOURCE_3, EXT_SOURCE_2, AMT_GOODS_PRICE dan seterusnya, sebagai bahan pertimbangan dalam menentukan keputusan pengajuan pinjaman. Selain itu, perusahaan kredit juga dapat melakukan pengembangan sistem yang mampu mengintegrasikan dan menganalisis data alternatif dengan cepat dan akurat untuk mendapatkan hasil prediksi yang lebih optimal. Dengan demikian, perusahaan kredit dapat meminimalisir risiko kredit dan meningkatkan kepercayaan calon nasabah dalam melakukan pengajuan pinjaman.
+
+#### **Rekomendasi Bisnis Berdasarkan Insight**
+- Review approach untuk nasabah yang tidak memiliki pekerjaan atau baru bekerja
+- 
 
 
 
