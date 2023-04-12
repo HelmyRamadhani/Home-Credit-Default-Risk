@@ -189,7 +189,7 @@ yang pasti/rigid
 
 ## 📂  **Stage 3 : Modeling and Evaluation**
 
-**Modeling and Evaluation**
+### **Modeling and Evaluation**
 
 - Algoritma yang digunakan yaitu Logistic Regression, dan Light GBM. Salain itu juga, dilakukan tuning pada setiap algortima yang digunakan
 - Cross-Validation Score dipilih sebagai matriks evaluasi digunakan untuk mengukur seberapa baik kinerja model dalam memprediksi data yang belum pernah dilihat sebelumnya (data yang tidak digunakan pada saat training).
@@ -205,7 +205,7 @@ yang pasti/rigid
 
 Berdasarkan beberapa algoritma yang telah diterapkan untuk uji coba performa model, algoritma Light GBM yang telah dilakukan Hyperparameter Tuning dipilih untuk diterapkan karena miliki ross-Validation Score tertinggi dibandingkan dengana algoritma lainnya yaitu 0,742355.
 
-**Feature Importances**
+### **Feature Importances**
 
 Selanjutnya, untuk mengetahui seberapa fitur-fitur berpengaruh terhadap model prediksi, dilakukan analisis menggunakan SHAP Value. Berikut ini hasil dari urutan fitur-fitur (feature importance) yang memiliki pengaruh paling tinggi hingga yang paling rendah pengaruhnya terhadap model prediksi.
 
@@ -219,11 +219,60 @@ Selanjutnya, untuk mengetahui seberapa fitur-fitur berpengaruh terhadap model pr
 <!-- Code gambar 9-->
 
 - EXT_SOURCE 3, EXT_SOURCE 2 dan AMT_GOODS_PRICE yang memiliki nilai lebih tinggi maka akan berdampak negatif pada prediksi (berkorelasi negatif terhadap target).
-- Sedangkan untuk AMT_CREDIT dan CODE_GENDER apabila memiliki nilai lebih tinggi akan memiliki dampak positif terhadap prediksi (berkorelasi positif terhadap target).
+- Sedangkan untuk AMT_CREDIT, apabila memiliki nilai lebih tinggi akan memiliki dampak positif terhadap prediksi (berkorelasi positif terhadap target).
 
-## 📂  **Stage 5 : Business Insight and Recomendation**
+## 📂  **Stage 4 : Business Insight and Recomendation**
 
-**Business Insight - PageValues**
+### **Business Insight - EXT_SOURCE_3**
+
+
+<!-- Code gambar 10 -->
+<p align="center">
+<img src="https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/970bb393c2e66ca24c494f97b47ec8ccb37cc212/Picture/Distribusi%20EXT_SOURCE_3.png" width="800" height="450" />
+<p align="center">
+<em> Gambar.10 Distribusi EXT_SOURCE_3 </em>
+</p>
+</p>
+<!-- Code gambar 10-->
+
+- Nasabah yang melunasi pinjaman cenderung memilik EXT_SOURCE_3 dengan nilai 5 sedangkan nasabah yang Pinjaman Tidak Dilunasi cenderung memiliki nilai 2
+
+
+<!-- Code gambar 11 -->
+<p align="center">
+<img src="https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/970bb393c2e66ca24c494f97b47ec8ccb37cc212/Picture/Distribusi%20EXT_SOURCE_2.png" width="800" height="450" />
+<p align="center">
+<em> Gambar.11 Distribusi EXT_SOURCE_2 </em>
+</p>
+</p>
+<!-- Code gambar 11-->
+
+- Nasabah yang melunasi pinjaman cenderung memilik EXT_SOURCE_2 lebih dari 4 sedangkan nasabah yang Pinjaman Tidak Dilunasi cenderung memiliki EXT_SOURCE_2 dibawah 4
+
+
+<!-- Code gambar 12 -->
+<p align="center">
+<img src="https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/970bb393c2e66ca24c494f97b47ec8ccb37cc212/Picture/Distribusi%20AMT_GOODS_PRICE.png" width="800" height="450" />
+<p align="center">
+<em> Gambar.12 Distribusi AMT_GOODS_PRICE</em>
+</p>
+</p>
+<!-- Code gambar 12-->
+
+- Nasabah yang Pinjaman Tidak Dilunasi cenderung melakukan pinjaman konsumen (pinjaman untuk membeli suatu barang) dengan harga barang yang lebih murah, tetapi kencenderungan tersebut terus menurun dengan harga barang yang lebih mahal.
+
+<!-- Code gambar 13 -->
+<p align="center">
+<img src="https://github.com/HelmyRamadhani/Home-Credit-Default-Risk/blob/970bb393c2e66ca24c494f97b47ec8ccb37cc212/Picture/Distribusi%20AMT_CREDIT.png" width="800" height="450" />
+<p align="center">
+<em> Gambar.13 Distribusi AMT_CREDIT</em>
+</p>
+</p>
+<!-- Code gambar 13-->
+
+- Nasabah Pinjaman Tidak Dilunasi memiliki kecenderungan dengan Jumlah kredit yang kecil dan kencenderungan tersebut terus menurun pada nilai Jumlah kredit yang tinggi
+
+
 
 
 
