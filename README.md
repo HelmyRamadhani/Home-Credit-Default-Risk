@@ -239,6 +239,7 @@ Selanjutnya, untuk mengetahui seberapa fitur-fitur berpengaruh terhadap model pr
 
 - Nasabah yang melunasi pinjaman cenderung memilik EXT_SOURCE_3 dengan nilai 5 sedangkan nasabah yang Pinjaman Tidak Dilunasi cenderung memiliki nilai 2
 
+### **Business Insight - EXT_SOURCE_2**
 
 <!-- Code gambar 11 -->
 <p align="center">
@@ -251,6 +252,7 @@ Selanjutnya, untuk mengetahui seberapa fitur-fitur berpengaruh terhadap model pr
 
 - Nasabah yang melunasi pinjaman cenderung memilik EXT_SOURCE_2 lebih dari 4 sedangkan nasabah yang Pinjaman Tidak Dilunasi cenderung memiliki EXT_SOURCE_2 dibawah 4
 
+### **Business Insight - AMT_GOODS_PRICE**
 
 <!-- Code gambar 12 -->
 <p align="center">
@@ -262,6 +264,8 @@ Selanjutnya, untuk mengetahui seberapa fitur-fitur berpengaruh terhadap model pr
 <!-- Code gambar 12-->
 
 - Nasabah yang Pinjaman Tidak Dilunasi cenderung melakukan pinjaman konsumen (pinjaman untuk membeli suatu barang) dengan harga barang yang lebih murah, tetapi kencenderungan tersebut terus menurun dengan harga barang yang lebih mahal.
+
+### **Business Insight - AMT_CREDIT**
 
 <!-- Code gambar 13 -->
 <p align="center">
@@ -281,8 +285,13 @@ Selanjutnya, untuk mengetahui seberapa fitur-fitur berpengaruh terhadap model pr
 - Menggunakan data alternatif yang terkait dengan Feature EXT_SOURCE_3, EXT_SOURCE_2, AMT_GOODS_PRICE dan seterusnya, sebagai bahan pertimbangan dalam menentukan keputusan pengajuan pinjaman. Selain itu, perusahaan kredit juga dapat melakukan pengembangan sistem yang mampu mengintegrasikan dan menganalisis data alternatif dengan cepat dan akurat untuk mendapatkan hasil prediksi yang lebih optimal. Dengan demikian, perusahaan kredit dapat meminimalisir risiko kredit dan meningkatkan kepercayaan calon nasabah dalam melakukan pengajuan pinjaman.
 
 #### **Rekomendasi Bisnis Berdasarkan Insight**
-- Review approach untuk nasabah yang tidak memiliki pekerjaan atau baru bekerja
-- 
+- Mempertimbangkan untuk memberikan kriteria usia sebagai salah satu faktor dalam proses persetujuan pinjaman. Hal ini dapat membantu perusahaan untuk meminimalkan risiko pinjaman yang tidak terbayar.
+
+- Mempertimbangkan untuk memberikan jenis pinjaman yang tepat berdasarkan rasio pinjaman tidak dilunasi. Misalnya, perusahaan dapat memberikan pinjaman Revoling Loans kepada nasabah dengan rasio pinjaman tidak dilunasi lebih rendah.
+
+- Mempertimbangkan untuk memberikan analisis lebih lanjut terhadap anomali pada jumlah kredit kisaran antara 400.000 hingga 600.000 yang memiliki rasio pinjaman tidak dilunasi lebih tinggi. Hal ini dapat membantu perusahaan untuk menentukan strategi yang lebih baik dalam memberikan pinjaman kepada nasabah dengan jumlah kredit tertentu.
+
+- Mempertimbangkan untuk memberikan penilaian khusus terhadap nasabah yang memiliki DAYS_EMPLOYED sekitar nol. Hal ini dapat membantu perusahaan untuk memberikan penanganan khusus terhadap nasabah yang memiliki risiko pinjaman yang lebih tinggi, seperti memberikan program pelatihan atau bantuan pekerjaan kepada nasabah yang menganggur, sehingga dapat memperbaiki kemampuan pembayaran pinjaman mereka.
 
 
 
