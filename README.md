@@ -33,7 +33,7 @@ membayar kembali pinjaman
 
 ### Goals
 - Membuat model machine learning yang dapat memprediksi nasabah yang berpeluang membayar pinjaman tepat waktu.
-- Diharapkan model dapat menigkatkan Take Up Rate diatas 1%
+- Diharapkan model dapat menigkatkan Take Up Rate diatas 3%
 
 ### Business Matrics
 Take Up Rate
